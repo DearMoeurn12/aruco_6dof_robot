@@ -23,6 +23,8 @@ echo " export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
 sudo apt update && sudo apt upgrade
 sudo apt install ros-humble-ur-msgs ros-humble-gazebo-ros ros-humble-moveit-servo
 sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-realtime-tools
+sudo apt install ros-humble-warehouse-ros-sqlite
+sudo apt install ros-humble-hardware-interface-testing
 ```
 
 #### build the workspace
